@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://0njqvm0osv4" path="res://scenes/nodes/node.tscn" id="1_qrja6"]
 [ext_resource type="Script" uid="uid://2t3sqi4dwwq0" path="res://scenes/ui/CommandManager.gd" id="2_co24e"]
+[ext_resource type="Texture2D" uid="uid://cuvhqetvf30ye" path="res://background.jpg" id="3_feb8i"]
 
 [sub_resource type="Environment" id="Environment_qrja6"]
 background_mode = 3
@@ -10,16 +11,12 @@ glow_blend_mode = 0
 
 [node name="Node2D" type="Node2D" unique_id=1073330699]
 
-[node name="Node" parent="." unique_id=1725032171 instance=ExtResource("1_qrja6")]
-position = Vector2(499, 1073)
-team_id = 1
-
 [node name="Node2" parent="." unique_id=1289812644 instance=ExtResource("1_qrja6")]
-position = Vector2(332, 135)
-team_id = 2
+position = Vector2(326, 583)
 
 [node name="Node3" parent="." unique_id=136622940 instance=ExtResource("1_qrja6")]
-position = Vector2(330, 667)
+position = Vector2(335, 179)
+team_id = 7
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1902035818]
 environment = SubResource("Environment_qrja6")
@@ -28,5 +25,12 @@ environment = SubResource("Environment_qrja6")
 script = ExtResource("2_co24e")
 
 [node name="Node4" parent="." unique_id=285691077 instance=ExtResource("1_qrja6")]
-position = Vector2(172, 987)
+position = Vector2(338, 1081)
 team_id = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=835920581]
+z_index = -100
+position = Vector2(336, 596)
+rotation = 1.5707964
+scale = Vector2(1.5736688, 1.5736688)
+texture = ExtResource("3_feb8i")

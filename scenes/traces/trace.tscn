@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c674gmugjsjp5"]
 
 [ext_resource type="Script" uid="uid://be36o6qjrb1vf" path="res://scenes/traces/trace.gd" id="1_wap1e"]
-[ext_resource type="Texture2D" uid="uid://ddyisoo214spi" path="res://scenes/traces/trace.svg" id="2_rk1p4"]
+[ext_resource type="Texture2D" uid="uid://dffc2nrfsvrwq" path="res://scenes/traces/trace 2.svg" id="2_rk1p4"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rk1p4"]
 
@@ -25,7 +25,8 @@ collision_mask = 6
 script = ExtResource("1_wap1e")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2075905102]
-scale = Vector2(0.34375, 0.34375)
+position = Vector2(-4.7683716e-07, -4.7683716e-07)
+scale = Vector2(0.484375, 0.484375)
 texture = ExtResource("2_rk1p4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=944810655]

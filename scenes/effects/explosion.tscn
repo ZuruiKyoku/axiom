@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://b8q5dplu1gg5h"]
+
+[ext_resource type="Script" uid="uid://b6yfkcu3idi0y" path="res://scenes/effects/explosion.gd" id="1_8dm26"]
+[ext_resource type="Script" uid="uid://dryjmkt3752no" path="res://scenes/effects/ProceduralBoom.gd" id="2_fqp2o"]
+
+[sub_resource type="Gradient" id="Gradient_fqp2o"]
+offsets = PackedFloat32Array(1)
+colors = PackedColorArray(1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_d6bb2"]
+gradient = SubResource("Gradient_fqp2o")
+width = 2
+height = 8
+
+[sub_resource type="Gradient" id="Gradient_yqd0p"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[node name="Explosion" type="CPUParticles2D" unique_id=1012338905]
+emitting = false
+amount = 6
+texture = SubResource("GradientTexture2D_d6bb2")
+lifetime = 0.4
+one_shot = true
+explosiveness = 1.0
+particle_flag_align_y = true
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 150.0
+initial_velocity_max = 250.0
+damping_min = 100.0
+damping_max = 100.0
+color_ramp = SubResource("Gradient_yqd0p")
+script = ExtResource("1_8dm26")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1465926242]
+script = ExtResource("2_fqp2o")

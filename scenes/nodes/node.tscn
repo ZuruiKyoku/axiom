@@ -2,7 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bkqr15gw8vkvc" path="res://scenes/nodes/node.gd" id="1_g0dwh"]
 [ext_resource type="Texture2D" uid="uid://b1fu181x0iek3" path="res://scenes/nodes/node.svg" id="2_g0dwh"]
-[ext_resource type="Texture2D" uid="uid://bj7j03hdefsxa" path="res://scenes/nodes/capture bar.png" id="3_qymqi"]
+[ext_resource type="Texture2D" uid="uid://dieiqpciyadsn" path="res://scenes/nodes/node_1.svg" id="2_gapog"]
+[ext_resource type="Texture2D" uid="uid://bkaty6sbivecv" path="res://scenes/nodes/Capture Bar.svg" id="4_gapog"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qymqi"]
 radius = 5.875
@@ -13,7 +14,7 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/path = NodePath("Level3_Sprite:scale")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -25,7 +26,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:rotation")
+tracks/1/path = NodePath("Level3_Sprite:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -34,13 +35,61 @@ tracks/1/keys = {
 "update": 0,
 "values": [0.0, 0.39269908169872414, 0.7853981633974483]
 }
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Level2_Sprite:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, -0.3926991, -0.7853982]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Level2_Sprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.072301924, 0.072301924), Vector2(0.05, 0.05), Vector2(0.072301924, 0.072301924)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Level1_Sprite:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.3926991, 0.7853982]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Level1_Sprite:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.04, 0.04), Vector2(0.02, 0.02), Vector2(0.04, 0.04)]
+}
 
 [sub_resource type="Animation" id="Animation_qymqi"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/path = NodePath("Level3_Sprite:scale")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -52,7 +101,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:rotation")
+tracks/1/path = NodePath("Level3_Sprite:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -60,6 +109,54 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Level2_Sprite:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Level2_Sprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.072301924, 0.072301924)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Level1_Sprite:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Level1_Sprite:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.04, 0.04)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qymqi"]
@@ -71,9 +168,18 @@ _data = {
 [node name="Node" type="StaticBody2D" unique_id=1725032171]
 collision_layer = 2
 collision_mask = 4
+input_pickable = true
 script = ExtResource("1_g0dwh")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=910194510]
+[node name="Level1_Sprite" type="Sprite2D" parent="." unique_id=1714393134]
+scale = Vector2(0.04, 0.04)
+texture = ExtResource("2_gapog")
+
+[node name="Level2_Sprite" type="Sprite2D" parent="." unique_id=2048286658]
+scale = Vector2(0.072301924, 0.072301924)
+texture = ExtResource("2_g0dwh")
+
+[node name="Level3_Sprite" type="Sprite2D" parent="." unique_id=910194510]
 scale = Vector2(0.15, 0.15)
 texture = ExtResource("2_g0dwh")
 
@@ -89,9 +195,19 @@ libraries/ = SubResource("AnimationLibrary_qymqi")
 autoplay = &"Pulse"
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="." unique_id=1083438138]
-offset_left = -30.0
-offset_top = -9.0
-offset_right = 270.0
-offset_bottom = 91.0
-scale = Vector2(0.2, 0.2)
-texture_progress = ExtResource("3_qymqi")
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = 40.0
+offset_right = 880.0
+offset_bottom = 423.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+fill_mode = 5
+texture_progress = ExtResource("4_gapog")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="245.1181mm"
+   height="96.238678mm"
+   viewBox="0 0 245.1181 96.238678"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(14.323962,-91.696927)">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:34.1964;stroke-dasharray:none"
+       id="path2"
+       sodipodi:type="arc"
+       sodipodi:cx="-108.23509"
+       sodipodi:cy="91.69693"
+       sodipodi:rx="105.46085"
+       sodipodi:ry="79.022003"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="arc"
+       d="m -2.7742386,91.69693 a 105.46085,79.022003 0 0 1 -52.7304284,68.43506 105.46085,79.022003 0 0 1 -105.460853,0 105.46085,79.022003 0 0 1 -52.73043,-68.43506"
+       sodipodi:open="true"
+       inkscape:export-filename="Capture Bar.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

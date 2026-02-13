@@ -13,7 +13,7 @@ config_version=5
 config/name="Axiom"
 run/main_scene="res://testing.tscn"
 config/features=PackedStringArray("4.6", "Mobile")
-config/icon="res://icon.svg"
+config/icon="uid://dfyn0oye5gbcn"
 
 [autoload]
 
@@ -44,6 +44,7 @@ pointing/emulate_touch_from_mouse=true
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
 viewport/hdr_2d=true
