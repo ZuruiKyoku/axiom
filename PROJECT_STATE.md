@@ -23,7 +23,7 @@ Godot project with GameManager, AI brain, node/trace scripts and procedural expl
 - Local working branch at audit: `main`; code snapshot `9ca569db888d0e7057b9f77e8369d80998206026`.
 - Pre-existing working-tree changes: **0** entries. These were not staged, committed or discarded by continuity setup.
 - Live GitHub default: `main` at `9ca569db888d0e7057b9f77e8369d80998206026`.
-- Documentation is prepared on `docs/project-continuity-2026-10-12` from that default. Feature-branch implementation described below is not thereby merged.
+- Continuity documentation was prepared from the reviewed `main` baseline. This documentation-only delivery includes no feature-branch implementation.
 - Repository: https://github.com/ZuruiKyoku/axiom (public).
 
 ## Completed work
@@ -69,8 +69,8 @@ No directly associated local coding transcript was found in the reviewed invento
 
 ## Session handoff
 
-- Last task: establish PROJECT_STATE.md and additive agent instructions from available project evidence.
+- Last task (2026-10-12): deliver the continuity documentation to the existing remote default branch `main`, as explicitly authorized by the user. Application changes and feature acceptance remain separate.
 - Documentation scope: preserve all pre-existing code, assets, branches, indexes and acceptance gates. A documentation branch does not back up uncommitted application work.
-- Publication state: consult the actual Git log/remote branch; do not assume a prepared branch was pushed or merged. The continuity report records the verified publication result.
+- Publication evidence: original documentation commit `fec3686823913179703ad61735efd6bb037bb7ff`; delivery targets `main` by normal fast-forward push. Confirm inclusion with Git ancestry; the external continuity report records the post-push remote SHA. Original local checkouts are not pulled or switched during delivery.
 - Next owner: follow Next steps above, fill historical gaps, and replace stale status with dated evidence after meaningful work.
 - Archive readiness: incomplete history and any local-only implementation still need reconciliation; do not infer that archiving all project chats is lossless.
